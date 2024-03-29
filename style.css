@@ -16,6 +16,15 @@ div.home {
 
 h1 {
     background-color: yellow;
+    width: 600px;
+    margin: 0 auto 12px;
+    border: 1px solid black;
+}
+
+h1.main-title {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 div.home {
@@ -29,7 +38,16 @@ h4,
     margin-left: 22px;
 }
 
-#recipe-list {
-    margin-top: 8px;
+.link-body {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 24px;
+    border: 1px dotted black;
+}
+
+.recipe-link {
+    width: 400px;
+    margin: 0 auto 32px;
+    text-align: center;
     font-size: 26px;
 }
